@@ -23,7 +23,7 @@ style declarations in css
    font-weight:bold
    }
 ```
-       (Does bold red)
+(Does bold red)
 
 ```html
    p.important {
@@ -31,7 +31,7 @@ style declarations in css
    color:white
    }
 ```
-      (Does bold white)
+(Does bold white)
 
 
 ----
