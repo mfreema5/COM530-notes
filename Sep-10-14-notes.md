@@ -14,7 +14,9 @@ style declarations in css
    <p class="important">  </p>
 
    <p> </p>
+```
 
+```HTML
    p {
    color:red
    }
