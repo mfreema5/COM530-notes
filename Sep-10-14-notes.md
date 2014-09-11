@@ -122,6 +122,8 @@ Now we can:
 
 ##Reset CSS
 
+###The foundational CSS Reset removes the inconsistent styling of HTML elements provided by browsers. This creates a dependably flat foundation to build upon. With CSS Reset loaded, write explicit CSS your project needs.
+
 [http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css](http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css)
 
 ```html
