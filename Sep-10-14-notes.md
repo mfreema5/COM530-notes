@@ -10,7 +10,7 @@ style declarations in css
 
 ###Cascading style sheets
 
-```html
+```HTML
    <p class="important">  </p>
 
    <p> </p>
@@ -27,7 +27,7 @@ style declarations in css
 ```
 (Does bold red)
 
-```html
+```HTML
    p.important {
    font-weight:bold
    color:white
@@ -44,11 +44,11 @@ If you specify things like "font" in the `html`, it "breaks the cascade".
 
 ###Scoring for styling precedence:
 
-```
-Elements  1  –   <p>
-Class    10  –   <p class="foo">
-ID      100  –   <p id="bar">
-```
+| entity   | score | example           |
+|----------|-------|-------------------|
+| Elements | 1     | `<p>`             |
+| Class    | 10    | `<p class="foo">` |
+| ID       | 100   | `<p id="bar">`    |
 
 ----
 
