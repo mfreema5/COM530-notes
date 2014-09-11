@@ -72,7 +72,10 @@ To determine the attribute value you want:
 ```target / context = result```
 
 
+----
+----
 
+Much wailing and gnashing of teeth over `git`.  ^(¡Torvalds, you bastard, what have you done!)
 
 
 
