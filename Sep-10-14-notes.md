@@ -107,10 +107,12 @@ Checks for HTML5 elements; if they aren't recognized, loads them into the browse
 
 Automatically adds class "js".
 
+Now we can:
+```html
+.js .hamburger { display: block; }
 
-
-
-
+.hamburger { display: none; }
+```
 
 
 
