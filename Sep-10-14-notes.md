@@ -141,7 +141,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 [https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust](https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust)
 
-On mobile devices, the `text-size-adjust` **CSS** property allows Web authors to control if and how the text-inflating algorithm is applied to the textual content of the element it is applied to.
+On mobile devices, the `text-size-adjust` **CSS** property allows Web authors to control 	if and how the text-inflating algorithm is applied to the textual content of the element it is applied to.
 
 
 
