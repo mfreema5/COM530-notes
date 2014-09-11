@@ -105,7 +105,9 @@ Checks for HTML5 elements; if they aren't recognized, loads them into the browse
 <script src="modernizr.custom.99475.js"></script>
 ````
 
-Automatically adds class "js".
+Automatically adds class "js", *if the browser supports javascript.*
+
+The existence (or non-existence) of class “`.js`” becomes a boolean for styles.
 
 Now we can:
 ```html
@@ -113,6 +115,7 @@ Now we can:
 
 .hamburger { display: none; }
 ```
+
 
 
 
