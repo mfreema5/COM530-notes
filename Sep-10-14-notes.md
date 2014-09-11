@@ -98,13 +98,14 @@ Some new elements for HTML5
 
 [**Modernizr**](http://modernizr.com/): a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
 
+Checks for HTML5 elements; if they aren't recognized, loads them into the browser's brain via Javascript.
 
 
+```html
+<script src="modernizr.custom.99475.js"></script>
+````
 
-
-
-
-
+Automatically adds class "js".
 
 
 
