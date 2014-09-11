@@ -87,10 +87,11 @@ Useful reference: [developer.mozilla.org/Web/Guide/HTML5_element_list](https://d
 
 Some new elements for HTML5
 
-|-----------|---|
-| <article> | Defines self-contained content that could exist independently of the rest of the content. |
-| <aside>   | Defines some content loosely related to the page content. If it is removed, the remaining content still makes sense. |
-| <main>    | Defines the main or important content in the document. **There is only one <main> element in the document.** |
+| element     | Description |
+|-------------|-------------|
+| `<article>` | Defines self-contained content that could exist independently of the rest of the content. |
+| `<aside>`   | Defines some content loosely related to the page content. If it is removed, the remaining content still makes sense. |
+| `<main>`    | Defines the main or important content in the document. **There is only one <main> element in the document.** |
 
 
 
