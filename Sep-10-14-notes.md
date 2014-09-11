@@ -75,7 +75,9 @@ To determine the attribute value you want:
 ----
 ----
 
-Much wailing and gnashing of teeth over `git`.  ^(¡Torvalds, you bastard, what have you done!)
+Much wailing and gnashing of teeth over `git`.  
+
+(¡Torvalds, you bastard, what have you done!)
 
 
 
