@@ -94,6 +94,11 @@ Some new elements for HTML5
 | `<main>`    | Defines the main or important content in the document. **There is only one `<main>` element in the document.** |
 | `<data>`    | Associates to its content a machine-readable equivalent . (This element is only in the WHATWG version of the HTML standard, and not in the W3C version of HTML5). |
 
+----
+
+[**Modernizr**](http://modernizr.com/): a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
+
+
 
 
 
