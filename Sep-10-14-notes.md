@@ -1,5 +1,7 @@
 Polyfill
+
 Mobilefirst design
+
 Typographic scales (font size; typographic grids)
 
 ----
