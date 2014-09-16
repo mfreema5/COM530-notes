@@ -144,6 +144,12 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 On mobile devices, the `text-size-adjust` **CSS** property allows Web authors to control 	if and how the text-inflating algorithm is applied to the textual content of the element it is applied to.
 
 
+----
+
+Basic, grid-based design for the web.
+
+Repeating, predictable grid.
+
 
 
 
