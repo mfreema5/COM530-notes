@@ -24,10 +24,20 @@ Create a
   * …?
 
 
+“em” from break-points
 
+----
 
+#Modular Scales
 
+[ModularScale.com](http://modularscale.com/) – Converts pixels to em
 
-
+| Ratios  | Description    |
+----------------------------
+| 1:1.618 | “Golden Ratio” |
+| 15:16   |                |
+| 8:9     |                |
+| 1:2     | Octave         |
+| 3:4     | Perfect fourth |
 
 
