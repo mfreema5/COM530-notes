@@ -33,7 +33,7 @@ Create a
 [ModularScale.com](http://modularscale.com/) – Converts pixels to em
 
 | Ratios  | Description    |
-----------------------------
+|---------|----------------|
 | 1:1.618 | “Golden Ratio” |
 | 15:16   |                |
 | 8:9     |                |
