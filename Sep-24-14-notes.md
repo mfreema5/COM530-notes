@@ -24,7 +24,7 @@
   * 
 
 
-##[Creative Commons](https://creativecommons.org/)
+###[Creative Commons](https://creativecommons.org/)
 
 * Licensing options
   * Attribution 
@@ -38,9 +38,36 @@
 
 
 
+3000x1996  -->  Looks like 1500x998 on Retina display.
+
+300x200  -->  On iPhone it gets expanded to use 600x400 physical pixels.
 
 
-Media queries
+Use `html` comments as a reminder to give attribution.
+
+----
+
+###Resize image to match window
+
+```CSS
+/* Responsive Images */
+img {
+  display: block;
+  max-width: 100%;
+}
+```
+
+##Media queries
+
+
+###Break points
+
+```CSS
+@media screen and (min-width: 800px) {
+ img { width: 60% }
+ figcaption {width: 30%}
+ }
+```
 
 
 
