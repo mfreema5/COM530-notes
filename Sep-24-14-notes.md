@@ -69,8 +69,17 @@ img {
  }
 ```
 
+But ems are better: 
 
+```CSS
+@media screen and (min-width: 50em) {
+ img { width: 60% }
+ figcaption {width: 30%}
+ }
+```
 
+* Often
+  * `16px = 1em`
 
 
 
