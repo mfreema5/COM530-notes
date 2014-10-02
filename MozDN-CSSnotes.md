@@ -47,7 +47,7 @@ Each block-level element generates at least one block-level box, which is its â€
 
 Block-level boxen are *intended to be vertically stacked*. (Within what?)
 
-*Types of boxen:*
+**Types of boxen:**
 * block-level box
 * block container box
   * A block container box contains:
