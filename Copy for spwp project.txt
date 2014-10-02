@@ -1,0 +1,48 @@
+
+<!-- area: Grad School -->
+
+
+topic: Technical Communication at IIT
+
+
+abstract: “I am a graduate student at the Illinois Institute of Technology, in the Master's of Technical Communication and Information Design program.  The research question for my thesis is ‘How can you identify when practitioners take notice of research? Can you quantify this “practical impact”?’”
+
+discussion:
+
+take-away: Writing Master's thesis on measuring the “practical impact” of academic research.
+
+
+<!-- area: Stats -->
+
+topic: PSYC 380 ‘Advanced Statistics' at IIT
+
+abstract: “I'm interested in the (mis)use of multiple regression analysis in academic papers, so I took PSYC 380 ‘Advanced Statistics – Applied Correlation and Regression’ at IIT.  Since it was an undergraduate level course, the credit hours I earned from it can't be applied toward my Master's degree, but I still think it was worth the time as I learned quite a lot about properly applying various regression and correlation methods.”
+
+discussion: [scatter plots?]
+
+take-away: Volunteered to take ‘Advanced Statistics – Applied Correlation and Regression’.
+
+----
+
+topic: Response Surface Analysis
+
+abstract: “For my final project for PSYC 380, I did an analysis of data based on a hypothesis developed by Miaja Renko, Assistant Professor of Management Studies, University of Illinois-Chicago.  The data came from the Panel Study of Entrepreneurial Development II (PSED-II)  I employed a response-surface analysis technique [shanock ref], and the results were promising enough that I've done some more work to refine the analysis for a research article she is writing.
+
+discussion:  [3D graphic]
+
+take-away: Performing a response-surface analysis for an entrepreneurship research paper.
+
+
+<!-- area: Chemistry -->
+
+
+
+I have extensive experience in performing GC analysis of permanent gases, and C1 through C8 hydrocarbons, and mixtures…
+
+
+
+
+
+
+
+
