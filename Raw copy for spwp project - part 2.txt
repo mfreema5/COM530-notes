@@ -1,12 +1,14 @@
-section:
+article:
 Current
 
 *****
 
-section:
+article:
 Post-graduate
 
 ***
+
+section
 
 topic:
 Understanding the user process to improve the user experience
@@ -26,8 +28,11 @@ Found a solution to a difficult problem (breaking down a complex process down in
 
 *****
 
-Section:
+article:
 Industry experience
+
+
+section
 
 topic:
 ISO 17025 documentation a wiki
@@ -42,6 +47,8 @@ take-away:
 Used internal wiki to meet ISO 17025 requirements for document control.
 
 ***
+
+section
 
 topic:
 Working with standards and regulations
