@@ -1,0 +1,63 @@
+section:
+Current
+
+*****
+
+section:
+Post-graduate
+
+***
+
+topic:
+Understanding the user process to improve the user experience
+
+abstract:
+The title of the course was “User Experience Research and Evaluation”, but before you can research and evaluate the user experience, you need something for the user to be experiencing.  So, first we had to define the domain in which the the user operates and then understand the process/tasks that the user employs.
+
+The domain we used was that of school selection in the Chicago Public School system.  Which turns out to be an even larger domain than you might imagine.  And the process that parents go through is more complex and convoluted than you would ever expect (unless you've gone through it).
+
+The part of the project where I contributed most was in the breaking down of the process into manageable pieces.  Part of the confusing complexity arises from almost all the tasks being done by one person: the parent.  Which means that all the work flows passing through that person, so any diagram quickly becomes a Gordian knot centered on the parent.  (Which is a fairly accurate depiction of how most of the parents we interviewed feel about dealing with CPS school selection.)
+
+I proposed a number of work-roles, all of which are taken on by the parent, but which we could consider separately, in order to be able to model the over-all process.  (Fellow team member Xi Rao put together the nice graphic showing the roles and work flows.)  This is, in general, the sort of thing I most enjoy doing: finding a solution to a problem, and then finding a way to share it with others.
+
+take-away:
+Found a solution to a difficult problem (breaking down a complex process down into manageable sub-roles) and worked with team members to implement it.
+
+
+*****
+
+Section:
+Industry experience
+
+topic:
+ISO 17025 documentation a wiki
+
+abstract:
+
+While working in the specialty gas industry, I had the opportunity to take part in the design and implementation of the documentation system for a lab that was becoming ISO 17025 certified.  The ISO standards have various requirements for controlling documentation, which include control who can revise documents, who approves revisions, and ensuring that only the most recent revision of a document is available for use.
+
+I realized that all of those requirements can be easily met through a wiki.  So I established an internal wiki using the MoinMoin wiki engine, with each wiki page being a document in the quality system documentation.  Not only did this make all of the documentation easily accessible to every employee, but it was therefore also easily searchable, so that people could find the document they needed.  The wiki also automatically kept track of all revisions to each document, and by default displayed the most recent revision.  And user accounts with passwords controlled who had the authority to make changes to documents.
+
+take-away:
+Used internal wiki to meet ISO 17025 requirements for document control.
+
+***
+
+topic:
+Working with standards and regulations
+
+abstract:
+As part of my various jobs in the industrial, medical and specialty gas industry, I have had to work with both voluntary standards such as ISO 9001, and government regulations such as the FDA regulations concerning medical drugs and devices.
+
+While I was a quality assurance chemist at a plant which produced and packaged high purity gases for the semiconductor industry, the plant was certified to the ISO 9001 standard for Quality Management.  Later I was transfered to another plant where I was both the lab manager and quality manager, and that plant was also certified as complying with ISO 9001.  At that plant I was also responsible for verifying conformance to FDA regulations, in the production, testing and labeling of medical drugs (typical pure oxygen) and devices (e.g., calibration standards for medical equipment).
+
+Also, since compressed gasses are considered hazardous materials, once I took on management roles, I had to be aware of DOT regulations concerning the labeling of products and placarding of vehicles.
+
+I produced a literature review of sorts, based on the Code of Federal Regulations, when the facility at which I was working starting supplying breathing gases to the professional diving industry.  There are surprisingly few regulations on diving gases, but the ones there are manage to be scattered about in the CFR, and often defer to US Department of Defense specifications—so, yet another set of standards/regulation with which I have some experience.
+
+take-away:
+Has experience in researching and ensuring conformance to standards and regulations including ISO 9001 and 17025; the FDA, OSHA and DOT subsections of the CFR; and DOD specifications.
+
+
+
+
