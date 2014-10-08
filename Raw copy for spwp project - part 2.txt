@@ -9,12 +9,16 @@
       <section id="ux">
           <div class="topic">
             <p>
-              Understanding the user process to improve the user experience
+              <span class="u1024">User experience team project</span><span class="o1024">Exploding a user process as part of a user experience team project</span>
             </p>
           </div>
-          <div class="example"></div>
+          <div class="example">
+            <h3 id="example-ux">
+              <span>UX graphic</span>
+            </h3>
+          </div>
           <div class="abstract">
-            <p>
+            <span class="o1024"><p>
               The title of the course was “User Experience Research and Evaluation”, but before you can research and evaluate the user experience, you need something for the user to be experiencing.  So, first we had to define the domain in which the the user operates and then understand the process/tasks that the user employs.
             </p>
             <p>
@@ -25,32 +29,48 @@
             </p>
             <p>
               I proposed a number of work-roles, all of which are taken on by the parent, but which we could consider separately, in order to be able to model the over-all process.  (Fellow team member Xi Rao put together the nice graphic showing the roles and work flows.)  This is, in general, the sort of thing I most enjoy doing: finding a solution to a problem, and then finding a way to share it with others.
+            </p></span>
+            <span class="u1024"><p>
+              For a group project for “User Experience Research and Evaluation” we worked on school selection by parents in the Chicago Public School system.  Which turns out to be a large domain, and the process that parents go through is surprisingly complex and convoluted.
             </p>
+            <p>
+              Where I contributed most was by breaking down of the process into manageable pieces.  Since all the tasks are done by the parent, all the work flows pass through that person, which makes the process hard to map.  I proposed breaking things down into a number of work-roles which we consider separately in our model the over-all process.  (Xi Rao put together the graphic showing the work flows.)
+            </p>
+            <p>
+              This is what I enjoy doing most: finding a solution to a problem, and finding a way to share it with others.
+            </p></span>
           </div>
           <div class="take-away">
-            <p>
+            <span class="o1024"><p>
               Found a solution to a difficult problem (breaking down a complex process down into manageable sub-roles) and worked with team members to implement it.
-            </p>
+            </p></span>
+            <span class="u1024"><p>
+              Found a solution to a knotty problem for user experience group project.
+            </p></span>
           </div>
         </section>
 
 
 *****
 
-      <article id="Industry experience">
+      <article id="industry-experience">
         <section id="iso17025">
           <div class="topic">
             <p>
-              ISO 17025 documentation a wiki
+              ISO 17025 documentation on a wiki<span class="o1024"> — a shortcut to document control</span>
             </p>
           </div>
-          <div class="example"></div>
+          <div class="example">
+            <h3 id="example-iso17025">
+              <span>ISO 17025 graphic</span>
+            </h3>
+          </div>
           <div class="abstract">
             <p>
-              While working in the specialty gas industry, I had the opportunity to take part in the design and implementation of the documentation system for a lab that was becoming ISO 17025 certified.  The ISO standards have various requirements for controlling documentation, which include control who can revise documents, who approves revisions, and ensuring that only the most recent revision of a document is available for use.
+              While working in the specialty gas industry, I had the opportunity to take part in the design and implementation of the documentation system for a lab that was becoming ISO 17025 certified.  The ISO standards have various requirements for controlling documentation<span class="o1024">, which include control who can revise documents, who approves revisions, and ensuring that only the most recent revision of a document is available for use</span>.
             </p>
             <p>
-              I realized that all of those requirements can be easily met through a wiki.  So I established an internal wiki using the MoinMoin wiki engine, with each wiki page being a document in the quality system documentation.  Not only did this make all of the documentation easily accessible to every employee, but it was therefore also easily searchable, so that people could find the document they needed.  The wiki also automatically kept track of all revisions to each document, and by default displayed the most recent revision.  And user accounts with passwords controlled who had the authority to make changes to documents.
+              I realized that those requirements can be easily met through a wiki.<span class="o1024">  So I established an internal wiki using the MoinMoin wiki engine, with each wiki page being a document in the quality system documentation.  Not only did this make all of the documentation easily accessible to every employee, but it was therefore also easily searchable, so that people could find the document they needed.</span>  The wiki automatically kept track of all revisions to each document, and by default displayed the most recent revision.  User accounts requiring passwords controlled who had the authority to make changes to documents.
             </p>
           </div>
           <div class="take-away">
@@ -69,24 +89,28 @@
               Working with standards and regulations
             </p>
           </div>
-          <div class="example"></div>
+          <div class="example">
+            <h3 id="example-stands-regs">
+              <span>Standards and regulations graphic</span>
+            </h3>
+          </div>
           <div class="abstract">
             <p>
               As part of my various jobs in the industrial, medical and specialty gas industry, I have had to work with both voluntary standards such as ISO 9001, and government regulations such as the FDA regulations concerning medical drugs and devices.
             </p>
             <p>
-              While I was a quality assurance chemist at a plant which produced and packaged high purity gases for the semiconductor industry, the plant was certified to the ISO 9001 standard for Quality Management.  Later I was transfered to another plant where I was both the lab manager and quality manager, and that plant was also certified as complying with ISO 9001.  At that plant I was also responsible for verifying conformance to FDA regulations, in the production, testing and labeling of medical drugs (typical pure oxygen) and devices (e.g., calibration standards for medical equipment).
+              <span class="o1024">While I was a quality assurance chemist at a plant which produced and packaged high purity gases for the semiconductor industry, the plant was certified to the ISO 9001 standard for Quality Management.  Later I was transfered to another plant where I was both the lab manager and quality manager, and that plant was also certified as complying with ISO 9001.  At that plant I was also responsible for verifying conformance to FDA regulations, in the production, testing and labeling of medical drugs (typical pure oxygen) and devices (e.g., calibration standards for medical equipment).</span><span class="u1024">I was a chemist at a plant while it was being certified to ISO 9001, and I was lab manager and quality manager at another plant that had been ISO 9001 certified.  While there I was also responsible for verifying conformance to FDA regulations.</span>
             </p>
             <p>
               Also, since compressed gasses are considered hazardous materials, once I took on management roles, I had to be aware of DOT regulations concerning the labeling of products and placarding of vehicles.
             </p>
-            <p>
+            <span class="o1024"><p>
               I produced a literature review of sorts, based on the Code of Federal Regulations, when the facility at which I was working starting supplying breathing gases to the professional diving industry.  There are surprisingly few regulations on diving gases, but the ones there are manage to be scattered about in the CFR, and often defer to US Department of Defense specifications—so, yet another set of standards/regulation with which I have some experience.
-            </p>
+            </p></span>
           </div>
           <div class="take-away">
             <p>
-              Has experience in researching and ensuring conformance to standards and regulations including ISO 9001 and 17025; the FDA, OSHA and DOT subsections of the CFR; and DOD specifications.
+              Has experience in <span class="o1024">researching and ensuring conformance to</span><span class="u1024>dealing with</span> standards and regulations including <span class="o1024"ISO 9001 and 17025; the FDA, OSHA and DOT subsections of the CFR; and DOD specifications.</span><span class="u1024">ISO 9001 and subsections of the CFR.</span>
             </p>
           </div>
         </section>
