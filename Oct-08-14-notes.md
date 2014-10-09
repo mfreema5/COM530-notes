@@ -36,10 +36,12 @@ How are these applied to the single-page web presence project?
 #### Shrink
   * Design for mobile first
   * Have a specific, limited audience in mind
+
 #### Hide
   * Hide the content that's not for the size of display being used
   * Hide source code
   * Hide the complexity, show the essential
+
 #### Embody
   * "Embue this [page] with some kind of value"
   * Employ specific design choices
@@ -67,9 +69,7 @@ How are these applied to the single-page web presence project?
 
 ####Label
 
-
 ####Integrate
-
 
 ####Prioritize
 
@@ -80,7 +80,29 @@ savings, speed, simplicity
 
 ----
 
+HTML fallback: add `<p>some info</p>` into media element.
+
+----
+
+Layers of web pages
+
+* Experience
+* Behavior/Performance - javascript
+* Presentation - css
+* Structure - html
+
+----
+
+modernizer adds all kinds of classes to css based on browser capabilities
+
+  call on those classes in order to only use css features supported by the browser
+
+----
+
+
 ##HTML5
+
+
 
 
 
