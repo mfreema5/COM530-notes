@@ -12,7 +12,7 @@ For the 21st:
 
 Next project is redesigning a web login/sign-up page.
 
-  (*Still need to pick a page to use.*)
+  (*Still need to send two pages to Karl.*)
 
 ----
 
@@ -102,9 +102,57 @@ modernizer adds all kinds of classes to css based on browser capabilities
 
 ##HTML5
 
+clone [github.com/karlstolley/html5-forms.git](https://github.com/karlstolley/html5-forms.git)
 
 
+forms require actions, e.g., "`<form action="#null">`"
 
+
+(project isn't just about the displayed form, but also the structure behind it)
+
+````
+<label for="firstname">First Name</label>
+<input type="text" name="firstname" id="firstname" />
+````
+
+The property "for" specifically ties the label to the thing to which it belongs.
+
+Label tag also warns of coming form elements.
+
+
+```
+<input type="submit" id="submit" value="Register" />
+```
+
+The "button" elment is not an html defined thing.
+
+
+Do not accept strings for dates &ndash; no way to predict what a user will do.
+
+Phone number: type "tel"
+
+Input elements
+
+  button
+
+  checkbox
+
+  radio-button
+
+  date
+
+  datetime
+  
+
+See MDN for details on styling form elements.
+
+----
+
+javascript
+
+```
+document.write("Hello world!");
+```
 
 
 
