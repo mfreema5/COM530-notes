@@ -10,7 +10,7 @@
     * See also: [Companion site / Examples](http://sustainablewebdesign.com/book/examples/)
 
 * Keith, [HTML5 for Web Designers](http://html5forwebdesigners.com/)
-  * [Chapter 4 – &ldqou;Web Forms 2.0&rdquo;](http://html5forwebdesigners.com/forms/index.html)
+  * [Chapter 4 – &ldquo;Web Forms 2.0&rdquo;](http://html5forwebdesigners.com/forms/index.html)
 
 * MDN Guide to [HTML Forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms), articles 1-4 (through all of the styling sections)
   * Article 1 – [My first HTML form](https://developer.mozilla.orgen-US/docs/HTML/Forms/My_first_HTML_form)
