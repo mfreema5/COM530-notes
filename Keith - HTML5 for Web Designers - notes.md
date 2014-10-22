@@ -31,9 +31,11 @@ function elementSupportsAttribute(element,attribute) {
 
 >Using this function, you can make sure that a JavaScript solution is only provided to browsers that don’t support placeholder:
 
+```JavaScript
 if (!elementSupportsAttribute('input','placeholder')) {
  // JavaScript fallback goes here.
 }
+```
 
 ----
 
