@@ -22,19 +22,19 @@
     * Article 4.3 – [Property compatibility table for form widgets](https://developer.mozilla.orgen-US/docs/Property_compatibility_table_for_form_widgets)
 
 * Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/), Introduction and chapters 1-6, 12-14, 18
-  * Chapter 00 – (Introduction)[http://eloquentjavascript.net/00_intro.html]
-  * Chapter 01 – (Values, Types, and Operators)[http://eloquentjavascript.net/01_values.html]
-  * Chapter 02 – (Program Structure)[http://eloquentjavascript.net/02_program_structure.html]
-  * Chapter 03 – (Functions)[http://eloquentjavascript.net/03_functions.html]
-  * Chapter 04 – (Data Structures: Objects and Arrays)[http://eloquentjavascript.net/04_data.html]
-  * Chapter 05 – (Higher-order Functions)[http://eloquentjavascript.net/05_higher_order.html]
-  * Chapter 06 – (The Secret Life of Objects)[http://eloquentjavascript.net/06_object.html]
+  * Chapter 00 – [Introduction](http://eloquentjavascript.net/00_intro.html)
+  * Chapter 01 – [Values, Types, and Operators](http://eloquentjavascript.net/01_values.html)
+  * Chapter 02 – [Program Structure](http://eloquentjavascript.net/02_program_structure.html)
+  * Chapter 03 – [Functions](http://eloquentjavascript.net/03_functions.html)
+  * Chapter 04 – [Data Structures: Objects and Arrays](http://eloquentjavascript.net/04_data.html)
+  * Chapter 05 – [Higher-order Functions](http://eloquentjavascript.net/05_higher_order.html)
+  * Chapter 06 – [The Secret Life of Objects](http://eloquentjavascript.net/06_object.html)
   * …
-  * Chapter 12 – (JavaScript and the Browser)[http://eloquentjavascript.net/12_browser.html]
-  * Chapter 13 – (The Document Object Model)[http://eloquentjavascript.net/13_dom.html]
-  * Chapter 14 – (Handling Events)[http://eloquentjavascript.net/14_event.html]
+  * Chapter 12 – [JavaScript and the Browser](http://eloquentjavascript.net/12_browser.html)
+  * Chapter 13 – [The Document Object Model](http://eloquentjavascript.net/13_dom.html)
+  * Chapter 14 – [Handling Events](http://eloquentjavascript.net/14_event.html)
   * …
-  * Chapter 18 – (Forms and Form Fields)[http://eloquentjavascript.net/18_forms.html]
+  * Chapter 18 – [Forms and Form Fields](http://eloquentjavascript.net/18_forms.html)
 
 
 ##Goals
