@@ -16,6 +16,8 @@ placeholder="Owl stretching">
 
 ----
 
+####Testing
+
 >Here’s a generic little JavaScript function that tests whether an element supports a particular attribute:
 
 ```JavaScript
@@ -71,7 +73,7 @@ if (!elementSupportsAttribute('input','placeholder')) {
 >HTML5 allows you to disable auto-completion on a per-form or per-field basis. The autocomplete attribute isn’t Boolean, yet it can only take two possible values: “on” or “off”:
 
 ```HTML
-<form action="/selfdestruct" autocomplete="off">
+&lt;form action="/selfdestruct" autocomplete="off"&gt;
 ```
 
 >By default, browsers will assume an autocomplete value of “on,” allowing them to pre-fill the form.
@@ -94,6 +96,101 @@ if (!elementSupportsAttribute('input','placeholder')) {
  <option value="Neptune">
 </datalist>
 ```
+
+----
+
+###Input Types
+
+
+>SEARCHING
+
+>An input element with a type value of “search” will behave much the same way as an input element with a type value of “text”:
+
+```
+<label for="query">Search</label>
+<input id="query" name="query" type="search">
+```
+
+>The only difference between “text” and “search” is… the styling of search fields….
+
+----
+
+>CONTACT DETAILS
+
+>There are three new type values for specific kinds of contact details:
+
+| contact detail    | example HTML                                     |
+|-------------------|--------------------------------------------------|
+| email addresses   | `<label for="email">Email address</label>`       |
+|                   | `<input id="email" name="email" type="email">`   |
+| websites          | `<label for="website">Website</label>`           |
+|                   | `<input id="website" name="website" type="url">` |
+| telephone numbers | `<label for="phone">Telephone</label>`           |
+|                   | `<input id="phone" name="phone" type="tel">`     |
+
+>Once again, these fields will behave in the same way as text inputs, but browsers now have a bit more information about the kind of data expected in the field.
+
+> [Some browsers will display] a different on-screen keyboard depending on the value of the type attribute.
+
+----
+
+>SLIDERS
+
+>In HTML5, thanks to `type="range"`, browsers can now offer a native control:
+
+```HTML
+<label for="amount">How much?</label>
+<input id="amount" name="amount" type="range">
+```
+
+(“Slider” as in adjusting a setting from 0 to 10.)
+
+>By default, the input will accept a range from 0 to 100. You can set your own minimum and maximum values using the min and max attributes:
+
+```HTML
+<label for="rating">Your rating</label>
+<input id="rating" name="rating" type="range" min="1" max="5">
+```
+
+
+####Testing
+
+>Testing for native support of input types requires a similar trick to the test for attribute support.
+
+```JavaScript
+function inputSupportsType(test) {
+ var input = document.createElement('input');
+ input.setAttribute('type',test);
+ if (input.type == 'text') {
+  return false;
+ } else {
+  return true;
+ }
+}
+```
+
+>You can then use this function to [check] support [for an] input type:
+
+```JavaScript
+if (!inputSupportsType('range')) {
+ // JavaScript fallback goes here.
+}
+```
+
+----
+
+>SPINNERS
+
+>Other kinds of data work best when the user can see and choose the numerical value. That’s where type="number" comes in:
+
+```HTML
+<label for="amount">How much?</label>
+<input id="amount" name="amount" type="number" min="5" max="20">
+```
+
+>The `number` input type is a hybrid of `text` and `range`. It allows users to enter values directly, like a `text` field, but it also allows browsers to ensure that only numerical values are entered, like a `range` control.
+
+###Dates and times
 
 
 
