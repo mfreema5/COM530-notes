@@ -58,7 +58,69 @@ Represents an element with an attribute name of attr and whose value contains at
 
 ----
 
+sidebar: [Accessible Rich Internet Applications (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
 
+----
+
+
+[MDN &ndash; JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+
+
+
+```
+html.no-js label { display: block; }
+html.has-js label { display: FOO; }
+```
+
+```
+<html lang="en" class="no-js">
+```
+
+Document Object Model &ndash; "DOM"
+
+Evented language &ndash; "Nothing ever happens until something happens"
+
+
+| Objects                | Events |
+|------------------------|--------|
+| have properties        |
+| have methods/functions |
+
+
+HTML is the document object.
+
+There is also the window object:
+```JavaScript
+window.innerHeight;
+```
+
+`onLoad` bad.  `ready` good. &ndash; [api.jquery.com/ready](http://api.jquery.com/ready/)
+
+"`$`" gets aliased to the jquery object
+
+```JavaScript
+$(document).ready(handler);
+```
+
+after document is ready, go after "no-js" class
+
+```
+$('html')
+```
+
+Equivilent to `CSS` selecting `html` elements.
+
+Anyway, then you can manipulate the object you've found.
+
+
+[api.jquery.com/category/forms](http://api.jquery.com/category/forms/)
+
+Querying form info.
+
+
+
+
+getters vs. setters
 
 
 
