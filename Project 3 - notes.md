@@ -13,13 +13,13 @@
   * [Chapter 4 – &ldquo;Web Forms 2.0&rdquo;](http://html5forwebdesigners.com/forms/index.html)
 
 * MDN Guide to [HTML Forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms), articles 1-4 (through all of the styling sections)
-  * Article 1 – [My first HTML form](https://developer.mozilla.orgen-US/docs/HTML/Forms/My_first_HTML_form)
-  * Article 2 – [How to structure an HTML form](https://developer.mozilla.orgen-US/docs/HTML/Forms/How_to_structure_an_HTML_form)
-  * Article 3 – [The native form widgets](https://developer.mozilla.orgen-US/docs/HTML/Forms/The_native_form_widgets)
+  * Article 1 – [My first HTML form](https://developer.mozilla.org/en-US/docs/HTML/Forms/My_first_HTML_form)
+  * Article 2 – [How to structure an HTML form](https://developer.mozilla.org/en-US/docs/HTML/Forms/How_to_structure_an_HTML_form)
+  * Article 3 – [The native form widgets](https://developer.mozilla.org/en-US/docs/HTML/Forms/The_native_form_widgets)
   * Article 4 – CSS with HTML forms
-    * Article 4.1 – [Styling HTML forms](https://developer.mozilla.orgen-US/docs/HTML/Forms/Styling_HTML_forms)
-    * Article 4.2 – [Advanced styling for HTML forms](https://developer.mozilla.orgen-US/docs/Web/Guide/HTML/Forms/Advanced_styling_for_HTML_forms)
-    * Article 4.3 – [Property compatibility table for form widgets](https://developer.mozilla.orgen-US/docs/Property_compatibility_table_for_form_widgets)
+    * Article 4.1 – [Styling HTML forms](https://developer.mozilla.org/en-US/docs/HTML/Forms/Styling_HTML_forms)
+    * Article 4.2 – [Advanced styling for HTML forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Advanced_styling_for_HTML_forms)
+    * Article 4.3 – [Property compatibility table for form widgets](https://developer.mozilla.org/en-US/docs/Property_compatibility_table_for_form_widgets)
 
 * Haverbeke, [Eloquent JavaScript](http://eloquentjavascript.net/), Introduction and chapters 1-6, 12-14, 18
   * Chapter 00 – [Introduction](http://eloquentjavascript.net/00_intro.html)
