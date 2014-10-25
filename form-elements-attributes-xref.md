@@ -1,16 +1,16 @@
 | Element | Attribute Name | Description |
 |---------|----------------|-------------|
-| <button> | autofocus | The element should be automatically focused after the page loaded. |
+| &lt;button&gt; | autofocus | The element should be automatically focused after the page loaded. |
 | | disabled | Indicates whether the user can interact with the element. |
 | | form | Indicates the form that is the owner of the element. |
 | | name | Name of the element. For example used by the server to identify the fields in form submits. |
 | | type | Defines the type of the element. |
 | | value | Defines a default value which will be displayed in the element on page load. |
-| <datalist> |  |  |
-| <fieldset> | disabled | Indicates whether the user can interact with the element. |
+| &lt;datalist&gt; |  |  |
+| &lt;fieldset&gt; | disabled | Indicates whether the user can interact with the element. |
 | | form | Indicates the form that is the owner of the element. |
 | | name | Name of the element. For example used by the server to identify the fields in form submits. |
-| <form> | accept | List of types the server accepts, typically a file type. |
+| &lt;form&gt; | accept | List of types the server accepts, typically a file type. |
 | | accept-charset | List of supported charsets. |
 | | action | The URI of a program that processes the information submitted via the form. |
 | | autocomplete | Indicates whether controls in this form can by default have their values automatically completed by the browser. |
@@ -19,7 +19,7 @@
 | | name | Name of the element. For example used by the server to identify the fields in form submits. |
 | | novalidate | This attribute indicates that the form shouldn't be validated when submitted. |
 | | target |  |
-| <input> | accept | List of types the server accepts, typically a file type. |
+| &lt;input&gt; | accept | List of types the server accepts, typically a file type. |
 | | autocomplete | Indicates whether controls in this form can by default have their values automatically completed by the browser. |
 | | autofocus | The element should be automatically focused after the page loaded. |
 | | checked | Indicates whether the element should be checked on page load. |
@@ -42,40 +42,40 @@
 | | type | Defines the type of the element. |
 | | usemap |  |
 | | value | Defines a default value which will be displayed in the element on page load. |
-| <keygen> | autofocus | The element should be automatically focused after the page loaded. |
+| &lt;keygen&gt; | autofocus | The element should be automatically focused after the page loaded. |
 | | challenge | A challenge string that is submitted along with the public key. |
 | | disabled | Indicates whether the user can interact with the element. |
 | | form | Indicates the form that is the owner of the element. |
 | | keytype | Specifies the type of key generated. |
 | | name | Name of the element. For example used by the server to identify the fields in form submits. |
-| <label> | for | Describes elements which belong to this one. |
+| &lt;label&gt; | for | Describes elements which belong to this one. |
 | | form | Indicates the form that is the owner of the element. |
-| <legend> |  |  |
-| <meter> | form | Indicates the form that is the owner of the element. |
+| &lt;legend&gt; |  |  |
+| &lt;meter&gt; | form | Indicates the form that is the owner of the element. |
 | | high | Indicates the lower bound of the upper range. |
 | | low | Indicates the upper bound of the lower range. |
 | | max | Indicates the maximum value allowed. |
 | | min | Indicates the minimum value allowed. |
 | | optimum | Indicates the optimal numeric value. |
 | | value | Defines a default value which will be displayed in the element on page load. |
-| <optgroup> | disabled | Indicates whether the user can interact with the element. |
-| <option> disabled | Indicates whether the user can interact with the element. |
+| &lt;optgroup&gt; | disabled | Indicates whether the user can interact with the element. |
+| &lt;option&gt; disabled | Indicates whether the user can interact with the element. |
 | | selected | Defines a value which will be selected on page load. |
 | | value | Defines a default value which will be displayed in the element on page load. |
-| <output> | for | Describes elements which belong to this one. |
+| &lt;output&gt; | for | Describes elements which belong to this one. |
 | | form | Indicates the form that is the owner of the element. |
 | | name | Name of the element. For example used by the server to identify the fields in form submits. |
-| <progress> | form | Indicates the form that is the owner of the element. |
+| &lt;progress&gt; | form | Indicates the form that is the owner of the element. |
 | | max | Indicates the maximum value allowed. |
 | | value | Defines a default value which will be displayed in the element on page load. |
-| <select> | autofocus | The element should be automatically focused after the page loaded. |
+| &lt;select&gt; | autofocus | The element should be automatically focused after the page loaded. |
 | | disabled | Indicates whether the user can interact with the element. |
 | | form | Indicates the form that is the owner of the element. |
 | | multiple | Indicates whether multiple values can be entered in an input of the type email or file. |
 | | name | Name of the element. For example used by the server to identify the fields in form submits. |
 | | required | Indicates whether this element is required to fill out or not. |
 | | size | Defines the width of the element (in pixels). If the element's type attribute is text or password then it's the number of characters. |
-| <textarea> | autofocus | The element should be automatically focused after the page loaded. |
+| &lt;textarea&gt; | autofocus | The element should be automatically focused after the page loaded. |
 | | cols | Defines the number of columns in a textarea. |
 | | dirname |  |
 | | disabled | Indicates whether the user can interact with the element. |
