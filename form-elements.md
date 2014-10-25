@@ -54,7 +54,20 @@ For &lt;form&gt;
 </form>
 ```
 
+##Hierarchy?
 
+* form
+  * fieldset
+    * input
+      * button
+      * meter
+    * select
+      * option
+      * datalist
+        * option
+      * optgroup
+        * option
+    * textarea
 
 
 
