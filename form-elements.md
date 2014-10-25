@@ -36,6 +36,7 @@ For &lt;button&gt;
 <div class="button">
     <button type="submit">Button text</button>
 </div>
+```
 
 For &lt;textarea&gt;
 
