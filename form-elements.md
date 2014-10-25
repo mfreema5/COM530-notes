@@ -16,3 +16,5 @@
 | <output>   | HTMLOutputElement   | The output element represents the result of a calculation. |
 | <progress> | HTMLProgressElement | The progress element is used to view the completion progress of a task. |
 | <select>   | HTMLSelectElement   | The select element represents a control that presents a menu of options. |
+| <textarea> | HTMLTextAreaElement | The textarea element represents a multi-line plain-text editing control. |
+
