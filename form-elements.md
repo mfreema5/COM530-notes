@@ -18,3 +18,45 @@
 | &lt;select&gt;   | HTMLSelectElement     | The select element represents a control that presents a menu of options. |
 | &lt;textarea&gt; | HTMLTextAreaElement   | The textarea element represents a multi-line plain-text editing control. |
 
+
+##Basic structure
+
+For &lt;input&gt; elements:
+
+```HTML
+<div>
+    <label for="[matches “id”]">Label text:</label>
+    <input type="[type]" id="[matches “for”]" />
+</div>
+```
+
+For &lt;button&gt;
+
+```HTML
+<div class="button">
+    <button type="submit">Button text</button>
+</div>
+
+For &lt;textarea&gt;
+
+```HTML
+<div>
+    <label for="[matches “id”]">Text-area label:</label>
+    <textarea id="[matches “for”]"></textarea>
+</div>
+```
+
+For &lt;form&gt;
+
+```HTML
+<form action="/my-handling-form-page" method="post">
+</form>
+```
+
+
+
+
+
+
+
+
