@@ -54,6 +54,24 @@ For &lt;form&gt;
 </form>
 ```
 
+
+For &lt;select&gt;
+
+```HTML
+<label for="myFruit">Pick a fruit</label>
+<select id="myFruit" name="fruit">
+  <!-- There is a trick here you think you'll pick
+     a banana but you'll eat an orange >:-) -->
+  <option value="orange">Banana</option>
+  <option>Cherry</option>
+  <optgroup label="berries">
+    <option>Blueberry</option>
+    <option>Raspberry</option>
+    <option>Strawberry</option>
+  </optgroup>
+</select>
+```
+
 ##Hierarchy?
 
 * form
