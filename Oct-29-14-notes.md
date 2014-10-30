@@ -101,11 +101,7 @@ etcetcetc&ellipsis;
  * Fail to load fonts, etc.
 
 
-
-Is it just in your post that you have:  "&#x96; &#x2d;encrypted" (the first two characters as html-hex: "&amp;#x96;&amp;#x2d;")?  As opposed to "&#x2d;&#x2d;encrypted" ("&amp;#x2d;&amp;#x2d;")
-
-
-
+Is it just in your post that you have: "&ndash;-encrypted"?  As opposed to "--encrypted"?
 
 
 ----
