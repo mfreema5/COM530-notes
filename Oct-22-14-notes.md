@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="formalize.css" />
 <script src="jquery.formalize.js"></script>
 </head>
-```HTML
+```
 
 "CDN" - Content Delivery Network
 
