@@ -44,17 +44,17 @@
 Re: [Mozilla Developer Network: Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 
 * `[attr]` &ndash; Represents an element with an attribute name of attr.
-  * `span[lang]` &ndash; Any span with an explicitly defined “lang” attribute
+  * Example: `span[lang]` &ndash; Any span with an explicitly defined “lang” attribute
 * `[attr=value]` &ndash; Represents an element with an attribute name of attr and whose value is exactly "value".
-  * `span[lang="en-us"]` &ndash; Any span with a “lang” attribute of exactly “en-us”
+  * Example: `span[lang="en-us"]` &ndash; Any span with a “lang” attribute of exactly “en-us”
 * `[attr|=value]` &ndash; Represents an element with an attribute name of attr whose value is a whitespace-separated list of words, one of which is exactly "value".
-  * `span[lang|="en-us"]` &ndash; Any span with one or more “lang” attributes, at least one of which is “en-us”
-* `[attr~=value]` &ndash; Represents an element with an attribute name of attr. Its value can be exactly “value” or can begin with “value” immediately followed by “-” (U+002D). It can be used for language subcode matches.
-  * `span[lang~="zh"]` &ndash; Any span with a “lang” that attribute matches “zh(-.)*” (e.g., “zh”, “zh-TW”, etc.)
+  * Example: `span[lang|="en-us"]` &ndash; Any span with one or more “lang” attributes, at least one of which is “en-us”
+* `[attr~=value]` &ndash; Represents an element with an attribute name of attr. with a value of exactly “value” or that begins with “value” immediately followed by “-”
+  * Example: `span[lang~="zh"]` &ndash; Any span with a “lang” that attribute matches “zh(-.)*” (e.g., “zh”, “zh-TW”, etc.)
 * `[attr^=value]` &ndash; Represents an element with an attribute name of attr and whose value is prefixed by "value".
-  * `a[href^="#"]` &ndash; All links to urls starting with “#”
+  * Example: `a[href^="#"]` &ndash; All links to urls starting with “#”
 * `[attr$=value]` &ndash; Represents an element with an attribute name of attr and whose value is suffixed by "value".
-  * `a[href$=".cn"]` &ndash; All links to urls ending in “.cn”
+  * Example: `a[href$=".cn"]` &ndash; All links to urls ending in “.cn”
 * `[attr*=value]` &ndash; Represents an element with an attribute name of attr and whose value contains at least one occurrence of string "value" as substring.
 
 
