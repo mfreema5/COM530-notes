@@ -1,12 +1,16 @@
 #Class notes &ndash; 19 Nov 2014
 
+>Set up HAML & Less on your computer by running `$ npm install -g coffee-script haml-coffee less` in your terminal.
+
+(ToDo: Make sure this is installed on rMBP)
+
 ##HAML
 
 >Haml Coffee is a JavaScript templating solution that uses Haml as markup, understands inline CoffeeScript and generates a JavaScript function that renders to HTML.  ([source](https://github.com/netzpirat/haml-coffee/blob/master/README.md))
 
 
 
-Install HAML
+Installing HAML:
 
 ```bash
 $ npm install haml-coffee coffee-script less
@@ -99,4 +103,10 @@ Streamlining:
 `$ lessc -x screen.less`
 
 `body{color:white;bacground-color:green}#footer{color:green;background-color:white}`
+
+##Final Project
+
+Using HAML is required.  LESS is not.
+
+
 
