@@ -1,5 +1,11 @@
 #Class notes &ndash; 19 Nov 2014
 
+##HAML
+
+>Haml Coffee is a JavaScript templating solution that uses Haml as markup, understands inline CoffeeScript and generates a JavaScript function that renders to HTML.  ([source](https://github.com/netzpirat/haml-coffee/blob/master/README.md))
+
+
+
 Install HAML
 
 ```bash
@@ -11,7 +17,7 @@ $ ln -s $HOME/node_modules/haml-coffee/bin/haml-coffee haml-coffee
 $ ln -s $HOME/node_modules/less/bin/lessc lessc
 ```
 
-
+**index.haml**:
 ```haml
 !!! 5
 %html{lang:"en"}
@@ -51,11 +57,46 @@ $ ln -s $HOME/node_modules/less/bin/lessc lessc
 </html> 
 ```
 
+[HAML HTML-elements reference](http://haml.info/docs/yardoc/file.REFERENCE.html#html_elements)
 
+##Less
 
+* [LESS CSS-preprocessor](http://lesscss.org/#)
 
+**screen.less**:
+```less
+@primaryColor: white;
+@secondaryColor: green;
 
+body {
+  color:           @primaryColor;
+  bacground-color: @secondaryColor;
+}
 
+#footer {
+  color:            @secondaryColor;
+  background-color: @primaryColor;
+}
+```
 
+`$ lessc screen.less`
 
+```CSS
+body {
+  color: white;
+  bacground-color: green;
+}
+#footer {
+  color: green;
+  background-color: white;
+}
+```
+
+Also can build function-like substitution. ("[mix-in](http://lesscss.org/features/#mixins-feature)")
+
+Streamlining:
+
+`$ lessc -x screen.less`
+
+`body{color:white;bacground-color:green}#footer{color:green;background-color:white}`
 
