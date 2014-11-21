@@ -67,6 +67,33 @@ $ ln -s $HOME/node_modules/less/bin/lessc lessc
   %footer#footer
 ```
 
+```
+$ haml-coffee
+Usage: coffee /usr/local/lib/node_modules/haml-coffee/bin/haml-coffee
+
+Options:
+  -i, --input         Either a file or a directory name to be compiled          
+  -o, --output        Set the output filename                                   
+  -n, --namespace     Set a custom template namespace                             [default: "window.HAML"]
+  -t, --template      Set a custom template name                                
+  -b, --basename      Ignore file path when generate the template name            [default: false]
+  -f, --format        Set HTML output format, either `xhtml`, `html4` or `html5`  [default: "html5"]
+  -u, --uglify        Do not properly indent or format the HTML output            [default: false]
+  -e, --extend        Extend the template scope with the context                  [default: false]
+  -p, --placement     Where to place the template function; one of: global, amd   [default: "global"]
+  -d, --dependencies  The global template amd module dependencies                 [default: "{ hc: 'hamlcoffee' }"]
+  -r, --render        Render the template into static HTML                        [default: false]
+  --preserve          Set a comma separated list of HTML tags to preserve         [default: "pre,textarea"]
+  --autoclose         Set a comma separated list of self-closed HTML tags         [default: "meta,img,link,br,hr,input,area,param,col,base"]
+  {…etc…}
+```
+
+The Haml parser knows different HTML formats. A given template must be rendered to one of:
+
+* xhtml
+* html4
+* html5
+
 `$ haml-coffee -r -f xhtml -i index.haml`
 
 `[Haml Coffee] Rendering file index.haml to index.html`
@@ -90,6 +117,11 @@ $ ln -s $HOME/node_modules/less/bin/lessc lessc
   <footer id='footer'></footer>
 </html> 
 ```
+
+
+
+
+
 
 [HAML HTML-elements reference](http://haml.info/docs/yardoc/file.REFERENCE.html#html_elements)
 
