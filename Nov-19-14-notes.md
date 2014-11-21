@@ -6,11 +6,43 @@
 
 ##HAML &ndash; [HTML abstraction markup language](http://haml.info/)
 
+Some metasyntactic examples (taken from [github.com/haml/haml](https://github.com/haml/haml)).
+
+```Haml
+%tagname(attr1='value1' attr2='value2') Contents
+
+%tagname#id.class
+
+%ul
+  %li Salt
+  %li Pepper
+
+%p
+  Hello,
+  World!
+```
+
+**Indentation** can be tabs or spaces. However, it must be consistent. Tabs and spaces can't be mixed; the same number of tabs/spaces must be used for each level, through the document.
+
+A tag without a name defaults to a `<div>`.
+
+```Haml
+#foo Hello!
+```
+
+becomes
+
+```html
+<div id='foo'>Hello!</div>
+```
+
+###HAML Coffee
+
 >Haml Coffee is a JavaScript templating solution that uses Haml as markup, understands inline CoffeeScript and generates a JavaScript function that renders to HTML.  ([source](https://github.com/netzpirat/haml-coffee/blob/master/README.md))
 
 Installing HAML Coffee:
 
-```bash
+```sh
 $ npm install haml-coffee coffee-script less
 $ mkdir bin
 $ cd bin
@@ -20,7 +52,7 @@ $ ln -s $HOME/node_modules/less/bin/lessc lessc
 ```
 
 **index.haml**:
-```haml
+```Haml
 !!! 5
 %html{lang:"en"}
   <head>
