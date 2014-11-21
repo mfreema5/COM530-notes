@@ -118,12 +118,35 @@ The Haml parser knows different HTML formats. A given template must be rendered 
 </html> 
 ```
 
-
-
-
-
-
 [HAML HTML-elements reference](http://haml.info/docs/yardoc/file.REFERENCE.html#html_elements)
+
+###Filters in Haml
+
+The colon character designates a filter. This allows you to pass an indented block of text as input to another filtering program and add the result to the output of Haml. The syntax is simply a colon followed by the name of the filter. For example:
+
+```haml
+%p
+  :markdown
+    # Greetings
+
+    Hello, *World*
+```
+
+is compiled to:
+
+```html
+<p>
+  <h1>Greetings</h1>
+
+  <p>Hello, <em>World</em></p>
+</p>
+```
+
+* Built-in filters
+  * `:markdown` &ndash; Parses the filtered text with Markdown.
+  * `:escaped` &ndash; Works the same as plain, but HTML-escapes the text before placing it in the document.
+  * `:javascript` &ndash; Surrounds the filtered text with `<script>`. Useful for including inline Javascript. 
+  * `:plain` &ndash; Does not parse the filtered text. This is useful for large blocks of text without HTML tags.
 
 ##Less
 
