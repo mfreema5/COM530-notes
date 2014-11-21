@@ -4,13 +4,11 @@
 
 (ToDo: Make sure this is installed on rMBP)
 
-##HAML
+##HAML &ndash; [HTML abstraction markup language](http://haml.info/)
 
 >Haml Coffee is a JavaScript templating solution that uses Haml as markup, understands inline CoffeeScript and generates a JavaScript function that renders to HTML.  ([source](https://github.com/netzpirat/haml-coffee/blob/master/README.md))
 
-
-
-Installing HAML:
+Installing HAML Coffee:
 
 ```bash
 $ npm install haml-coffee coffee-script less
