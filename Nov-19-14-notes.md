@@ -148,6 +148,60 @@ is compiled to:
   * `:javascript` &ndash; Surrounds the filtered text with `<script>`. Useful for including inline Javascript. 
   * `:plain` &ndash; Does not parse the filtered text. This is useful for large blocks of text without HTML tags.
 
+###Variables in Haml
+
+```Haml
+!!!
+- foobar = "Practical impact"
+
+%html{:lang => "en"}
+  %head
+    %title Index and abstract
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %link{:href => "css/screen.css", :rel => "stylesheet"}/
+  %body
+    %main
+      %h1
+        #{foobar}
+      %article#abstract
+        %h2
+          The research value of tracking practical impact
+        %p
+          Bibliometric methods are well established and widely used, but…
+    %footer
+```
+
+Renders to:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Index and abstract</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="css/screen.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <h1>
+        Practical impact
+      </h1>
+      <article id="abstract">
+        <h2>
+          The research value of tracking practical impact
+        </h2>
+        <p>
+          Bibliometric methods are well established and widely used, but…
+        </p>
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+</html>
+```
+
 ##Less
 
 * [LESS CSS-preprocessor](http://lesscss.org/#)
