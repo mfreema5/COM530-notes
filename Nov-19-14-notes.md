@@ -243,6 +243,21 @@ Streamlining:
 
 `body{color:white;bacground-color:green}#footer{color:green;background-color:white}`
 
+###[{less} Functions](http://lesscss.org/functions/)
+
+Some select functions (`example less syntax` -> `example output`):
+
+* Convert a number from one unit into another.
+  * `convert(9s, "ms")` -> `9000ms`
+  * `convert(14cm, mm)` -> `140mm`
+* Create an opaque color object from hue, saturation and value (HSV) values.
+  * `hsv(90, 100%, 50%)` -> `#408000`
+* Increase the saturation of a color in the HSL color space by an absolute amount.
+  * `saturate(hsl(90, 80%, 50%), 20%)` -> `#80ff00` or `hsl(90, 100%, 50%)`
+* Rotate the hue angle of a color in either direction.
+  * `spin(hsl(10, 90%, 50%), 30)` -> `#f2a60d`
+  * `spin(hsl(10, 90%, 50%), -30)` -> `#f20d59`
+
 ##Final Project
 
 Using HAML is required.  LESS is not.
