@@ -49,9 +49,11 @@ RSS feeds
 
 "Permalink tag"
 
+link to an external CSS
+* `rel:"stylesheet",href:"http://example.com/styles.css"`
 
-
-
+(A "gh-pages" branch is treated as a website by Github &ndash; so *that's* why people have been doing that!)
+(So, you can create a `screen.css` in a "gh-pages" branch and pull it into an external resource.)
 
 
 
